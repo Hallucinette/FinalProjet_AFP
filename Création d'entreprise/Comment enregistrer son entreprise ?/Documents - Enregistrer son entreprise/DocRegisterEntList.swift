@@ -12,6 +12,8 @@ struct DocRegisterEntList: View {
     @Binding var favorisList: [Favoris]
     @Binding var demarches: [Demarche]
     
+    //here we can send the document in a favori list.
+    
     var docsRegisterEnts = [
         DocRegisterEnt(DocRegisterEntName: "Cerfa P0 CMB")
     ]
