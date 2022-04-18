@@ -5,6 +5,9 @@
 //  Created by Apprenant 57 on 09/12/2021.
 //
 
+//Here we creat the profil view. It can registrer basic information of the company. For exemple we have Siret, Siren or adress.
+// It's possible to modify the text. We have the idea futur to permit pre-fill the other document like "devis" or "facture". But we didn't have necessary time :)
+
 import SwiftUI
 
 struct ProfileView: View {
