@@ -5,12 +5,15 @@
 //  Created by Apprenant 55 on 15/12/2021.
 //
 
+//Here we have created a standard article to show what it might look like.
+
 import SwiftUI
 
 struct ArticleType: View {
     var body: some View {
         ScrollView{
             VStack{
+                // here is creation of ilustrate image, there size and there title.
                 Image("student")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
