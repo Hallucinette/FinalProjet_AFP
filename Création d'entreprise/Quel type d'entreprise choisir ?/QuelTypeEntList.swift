@@ -18,6 +18,8 @@ struct QuelTypeEntList: View {
     
     var body: some View {
         
+        // Here we do the navigation. if you chose one of them, they can have a diferent way. of course, this is just a prototype so,
+        // we can go in just two different way : ToRegisterVehicle and ToDoEmployAnIntern.
         
         List(quelTypeEnts){quelTypeEnt in
             if quelTypeEnt.quelTypeEntName == "Je suis commercant"{
